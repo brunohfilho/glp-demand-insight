@@ -61,6 +61,19 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				glp: {
+					primary: 'hsl(var(--glp-primary))',
+					'primary-foreground': 'hsl(var(--glp-primary-foreground))',
+					secondary: 'hsl(var(--glp-secondary))',
+					'secondary-foreground': 'hsl(var(--glp-secondary-foreground))',
+					accent: 'hsl(var(--glp-accent))',
+					'accent-foreground': 'hsl(var(--glp-accent-foreground))',
+					success: 'hsl(var(--glp-success))',
+					warning: 'hsl(var(--glp-warning))',
+					danger: 'hsl(var(--glp-danger))',
+					neutral: 'hsl(var(--glp-neutral))',
+					dark: 'hsl(var(--glp-dark))'
 				}
 			},
 			borderRadius: {

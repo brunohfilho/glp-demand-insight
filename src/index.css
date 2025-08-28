@@ -53,6 +53,19 @@ All colors MUST be HSL.
     --sidebar-border: 220 13% 91%;
 
     --sidebar-ring: 217.2 91.2% 59.8%;
+
+    /* GLP Dashboard Colors */
+    --glp-primary: 213 100% 50%;
+    --glp-primary-foreground: 0 0% 100%;
+    --glp-secondary: 199 89% 48%;
+    --glp-secondary-foreground: 0 0% 100%;
+    --glp-accent: 45 93% 47%;
+    --glp-accent-foreground: 0 0% 0%;
+    --glp-success: 142 76% 36%;
+    --glp-warning: 38 92% 50%;
+    --glp-danger: 0 84% 60%;
+    --glp-neutral: 220 14% 96%;
+    --glp-dark: 220 39% 11%;
   }
 
   .dark {
@@ -91,6 +104,19 @@ All colors MUST be HSL.
     --sidebar-accent-foreground: 240 4.8% 95.9%;
     --sidebar-border: 240 3.7% 15.9%;
     --sidebar-ring: 217.2 91.2% 59.8%;
+
+    /* GLP Dashboard Colors - Dark Mode */
+    --glp-primary: 213 100% 60%;
+    --glp-primary-foreground: 0 0% 0%;
+    --glp-secondary: 199 89% 58%;
+    --glp-secondary-foreground: 0 0% 0%;
+    --glp-accent: 45 93% 57%;
+    --glp-accent-foreground: 0 0% 0%;
+    --glp-success: 142 76% 46%;
+    --glp-warning: 38 92% 60%;
+    --glp-danger: 0 84% 70%;
+    --glp-neutral: 220 14% 10%;
+    --glp-dark: 220 39% 85%;
   }
 }
 
