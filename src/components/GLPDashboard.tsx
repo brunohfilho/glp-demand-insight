@@ -21,10 +21,10 @@ export interface MonthlyBudget {
 
 const GLPDashboard = () => {
   const [filters, setFilters] = useState<GLPFilters>({
-    month: "",
-    segment: "",
-    bottleType: "",
-    city: ""
+    month: "all",
+    segment: "all",
+    bottleType: "all",
+    city: "all"
   });
 
   const [annualBudget, setAnnualBudget] = useState<number>(0);

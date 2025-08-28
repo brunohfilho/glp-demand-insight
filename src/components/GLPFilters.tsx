@@ -72,7 +72,7 @@ export const GLPFilters = ({ filters, onFiltersChange }: GLPFiltersProps) => {
               <SelectValue placeholder="Selecione o mês" />
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="">Todos os meses</SelectItem>
+              <SelectItem value="all">Todos os meses</SelectItem>
               {months.map((month) => (
                 <SelectItem key={month.value} value={month.value}>
                   {month.label}
@@ -89,7 +89,7 @@ export const GLPFilters = ({ filters, onFiltersChange }: GLPFiltersProps) => {
               <SelectValue placeholder="Selecione o segmento" />
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="">Todos os segmentos</SelectItem>
+              <SelectItem value="all">Todos os segmentos</SelectItem>
               {segments.map((segment) => (
                 <SelectItem key={segment} value={segment}>
                   {segment}
@@ -106,7 +106,7 @@ export const GLPFilters = ({ filters, onFiltersChange }: GLPFiltersProps) => {
               <SelectValue placeholder="Selecione o tipo" />
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="">Todos os tipos</SelectItem>
+              <SelectItem value="all">Todos os tipos</SelectItem>
               {bottleTypes.map((type) => (
                 <SelectItem key={type} value={type}>
                   {type}
@@ -123,7 +123,7 @@ export const GLPFilters = ({ filters, onFiltersChange }: GLPFiltersProps) => {
               <SelectValue placeholder="Selecione a cidade" />
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="">Todas as cidades</SelectItem>
+              <SelectItem value="all">Todas as cidades</SelectItem>
               {cities.map((city) => (
                 <SelectItem key={city} value={city}>
                   {city}

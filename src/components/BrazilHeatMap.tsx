@@ -50,7 +50,7 @@ const getHeatIntensity = (demand: number) => {
 
 export const BrazilHeatMap = ({ filters }: BrazilHeatMapProps) => {
   // Filter regions based on selected city
-  const filteredRegions = filters.city 
+  const filteredRegions = filters.city && filters.city !== "all"
     ? brazilRegions.filter(region => 
         region.name.toLowerCase().includes(filters.city.toLowerCase())
       )
@@ -61,7 +61,7 @@ export const BrazilHeatMap = ({ filters }: BrazilHeatMapProps) => {
     let adjustedDemand = region.demand;
     
     // Mock adjustments based on filters
-    if (filters.month) {
+    if (filters.month && filters.month !== "all") {
       // Seasonal adjustment
       const monthNum = parseInt(filters.month);
       if (monthNum >= 6 && monthNum <= 8) adjustedDemand *= 1.2; // Winter months

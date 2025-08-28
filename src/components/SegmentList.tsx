@@ -19,7 +19,7 @@ const segmentData = [
 
 export const SegmentList = ({ annualBudget, filters }: SegmentListProps) => {
   // Filter data based on selected segment
-  const filteredData = filters.segment 
+  const filteredData = filters.segment && filters.segment !== "all"
     ? segmentData.filter(segment => segment.name === filters.segment)
     : segmentData;
 
