@@ -4,7 +4,7 @@ import { GLPFilters } from "./GLPFilters";
 import { BudgetInput } from "./BudgetInput";
 import { MonthlyBudgetTable } from "./MonthlyBudgetTable";
 import { SegmentList } from "./SegmentList";
-import { BrazilHeatMap } from "./BrazilHeatMap";
+import BrazilHeatMap from "./BrazilHeatMap";
 
 export interface GLPFilters {
   month: string;
