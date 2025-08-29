@@ -36,11 +36,11 @@ const brazilStates = [
 ];
 
 const getHeatColor = (demand: number) => {
-  if (demand >= 80) return "#dc2626"; // red-600
-  if (demand >= 60) return "#ea580c"; // orange-600  
-  if (demand >= 40) return "#eab308"; // yellow-500
-  if (demand >= 20) return "#16a34a"; // green-600
-  return "#2563eb"; // blue-600
+  if (demand >= 80) return "#ff6b35"; // orange
+  if (demand >= 60) return "#4ecdc4"; // teal/green
+  if (demand >= 40) return "#2c3e50"; // dark gray
+  if (demand >= 20) return "#95a5a6"; // light gray
+  return "#ecf0f1"; // very light gray
 };
 
 const getHeatOpacity = (demand: number) => {
